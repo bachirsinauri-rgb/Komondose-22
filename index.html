@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>KOMONDOSE V24 - SOVEREIGNTY</title>
+    <style>
+        body { background: #000; color: #0f0; font-family: 'Courier New', monospace; text-align: center; }
+        .emerald-box { border: 2px solid #10b981; padding: 20px; margin: 20px; box-shadow: 0 0 20px #047857; }
+        #terminal-box { height: 200px; background: #050505; overflow-y: auto; border: 1px solid #ffd700; padding: 10px; text-align: right; }
+        button { background: none; border: 1px solid #ffd700; color: #ffd700; padding: 10px; cursor: pointer; margin: 5px; }
+    </style>
+</head>
+<body>
+    <div class="emerald-box">
+        <h1 style="color:#ffd700">مؤسسة الرائد - KOMONDOSE V24</h1>
+        <div id="terminal-box">> النظام جاهز للعمل...</div>
+        <hr>
+        <button onclick="triggerAction('رادار التشويش')">📡 رادار</button>
+        <button onclick="triggerAction('نبضة EMP')">⚡ EMP</button>
+    </div>
+    <script src="controller.js"></script>
+    <script src="logic.js"></script>
+</body>
+</html>

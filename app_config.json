@@ -1,0 +1,19 @@
+{
+    "institution": "Al-Raed Komondose",
+    "version": "V24.0",
+    "theme": {
+        "primary_color": "#10b981",
+        "secondary_color": "#ffd700",
+        "background": "#000000"
+    },
+    "network": {
+        "host": "localhost",
+        "port": 8080,
+        "secure_mode": true
+    },
+    "features": {
+        "black_box": "active",
+        "radar": "enabled",
+        "emp_protocol": "secured"
+    }
+}
